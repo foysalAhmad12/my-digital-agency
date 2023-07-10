@@ -16,6 +16,13 @@
     font-weight: 500;
     margin-right: 10px;
 }
+.btn-2{
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: grey;
+    border: none;
+    font-size: 18px;
+}
 /* nav part start  */
 .nav-container {
     background-color: #D5D2D2;
@@ -78,8 +85,9 @@
     background-blend-mode: overlay;
     display: flex;
     justify-content: space-around;
+    height: 100vh;
     align-items: center;
-    padding: 0px 30px 40px;
+    padding: 0px 30px 100px;
     color: #BECFD0;
 }
 .left-part{
@@ -124,11 +132,60 @@
     justify-content: space-around;
     align-items: center;
 }
+ /* author-information */
 .author-info{
     margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
 .author-pic{
     width: 70px;
     height: 70px;
     border-radius: 50%;
+}
+.author-description{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid red;
+    padding-right: 40px;
+}
+.author-button .btn-2{
+    margin-left: 20px;
+    color: red;
+}
+.appoinment-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 44, 44);;
+    width: 80%;
+    color: #ffffff;
+    margin: -80px auto 0px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.icon-title{
+    font-size: 30px;
+}
+.icon-number p{
+    font-size: 10px;
+    font-weight: bold;
+}
+.appoinment-part-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 2px solid gray;
+    padding-right: 8px;
+}
+.appoinment-part-two{
+    font-size: 18px;
+    max-width: 50%;
+    margin-left: 10px;
+}
+.appoinment-part-three button{
+    font-size: 18px;
+    color: #060606;
+    text-align: center;
 }
